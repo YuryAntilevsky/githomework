@@ -38,6 +38,7 @@ if (arithmetic === 'plus') { alert(first + second) }
 if (arithmetic === 'mult') { alert(first * second) }
 if (arithmetic === 'minus') { alert(first - second) }
 
+
 const first = +prompt(`введите первое число`);
 const second = +prompt(`введите второе число`);
 const ariphmetic = prompt(`выберите нужную арифметическую операцию (div, plus, mult, minus)`);
