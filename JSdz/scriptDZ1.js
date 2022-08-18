@@ -32,15 +32,6 @@ else { alert("Класс элементу не присвоен!"); }
 
 const first = +prompt(`введите первое число`);
 const second = +prompt(`введите второе число`);
-const arithmetic = prompt(`выберите нужную арифметическую операцию (div, plus, mult, minus)`);
-if (arithmetic === 'div') { alert(first / second) }
-if (arithmetic === 'plus') { alert(first + second) }
-if (arithmetic === 'mult') { alert(first * second) }
-if (arithmetic === 'minus') { alert(first - second) }
-
-
-const first = +prompt(`введите первое число`);
-const second = +prompt(`введите второе число`);
 const ariphmetic = prompt(`выберите нужную арифметическую операцию (div, plus, mult, minus)`);
 if (arithmetic === `div`) { alert(first / second) }
 else if (arithmetic === `plus`) { alert(first + second) }
