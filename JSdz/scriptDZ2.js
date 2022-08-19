@@ -27,4 +27,4 @@ else if (nameUser != null && surnameUser == null && nicknameUser != null) {
 else if (nameUser == null && surnameUser == null && nicknameUser == null || nameUser == null && surnameUser != null && nicknameUser == null || nameUser == null && surnameUser == null && nicknameUser != null) {
     alert(`Noname`)
 }
-else { alert(`ошибка`) }
+else { alert(`Ошибка`) }
