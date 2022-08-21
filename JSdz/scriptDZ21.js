@@ -57,6 +57,6 @@ else if (numberCheck < 0 && numberCheck != NaN ) {
 else if (numberCheck > 0 && numberCheck != NaN) {
     positivity = 'положительное'
 }
-else {positivity = 'равно нулю'}
+else {positivity = 'равно  нулю'}
 
 alert(`${language} ${hundred} ${parity} ${fractional} ${positivity}`)
