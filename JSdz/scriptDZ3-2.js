@@ -1,15 +1,15 @@
 'use strict'
-let pinCode;
-let pukCode;
+let PinCode;
+let PukCode;
 for (let i = 0; i < 3; i++) {
-    pinCode = +prompt('введите PIN-код');
-    if (pinCode === 1234) alert("введён правильный PIN-код");
-    if (pinCode === 1234) break;
+    PinCode = +prompt('введите PIN-код');
+    if (PinCode === 1234) alert("введён правильный PIN-код");
+    if (PinCode === 1234) break;
     }
-if(pinCode != 1234){
+if(PinCode != 1234){
     for (let i = 0; i < 3; i++) {
-         pukCode = +prompt('введите PUK-код');
-         if (pinCode === 1234) alert("введён правильный PUK-код");
-        if (pukCode === 4321) break;
+         PukCode = +prompt('введите PUK-код');
+         if (PinCode === 1234) alert("введён правильный PUK-код");
+        if (PukCode === 4321) break;
         }
 }
